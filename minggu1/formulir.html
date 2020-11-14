@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form HTML</title>
+  </head>
+  <body>
+    <h1>Form HTML</h1>
+    <form>
+      Name: <input type="text" name="name"/><br>
+      Gender: <input type="radio" name="gender" value="Man"/>
+              <label for="Man">Man</label>
+              <input type="radio" name="gender" value="Woman"/>
+              <label for="Woman">Woman</label><br>
+      Address: <input type="text" name="address"/><br>
+      Country: <select name="country">
+                  <option value="Indonesia" selected>Indonesia</option>
+                  <option value="Singapura">Singapura</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="Brunei Darussalam">Brunei Darussalam</option>
+                  <option value="Timor Leste">Timor Leste</option>
+                </select>
+      E-mail: <input type="text" name="email"/><br>
+      Photo: <input type="file" name="photo" value=""/><br>
+      Comment: <br><textarea name="comment" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="submit" value="Simpan">
+    </form>
+  </body>
+</html>
