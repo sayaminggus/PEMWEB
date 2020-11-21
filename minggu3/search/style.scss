@@ -1,0 +1,49 @@
+$menbutton: 15px;
+$mainbg: url("../mainbg.jpg");
+$maincol: #003300;
+$textbutton: rgb(0, 153,  51);
+$buttoncur: white;
+$textmenu: white;
+$textcur: rgb(0, 51, 0);
+$bghead: rgb(0, 153,  51);
+$font: Arial, Helvetica, sans-serif;
+$shadows: 2px 2px 4px black;
+
+body {
+  background-image: $mainbg;
+  background-repeat: no-repeat;
+  background-size: 1366px 720px;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: $maincol;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+  color: $textmenu;
+  background-color: $bghead;
+  box-shadow: $shadows;
+}
+
+.searchnav {
+  margin: 100px;
+  padding: 100px;
+  text-align: center;
+  color: $textmenu;
+  background-color: $bghead;
+  box-shadow: $shadows;
+
+  label {
+    font-size: 11pt;
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 5px;
+    font-size: 9pt;
+    margin-bottom: 20px;
+  }
+}

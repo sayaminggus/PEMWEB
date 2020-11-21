@@ -1,0 +1,46 @@
+body {
+  background-image: url("../mainbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1366px 720px;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #003300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  background-color: #009933;
+  box-shadow: 2px 2px 4px black;
+}
+
+.formu {
+  margin: 100px;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  background-color: #009933;
+  box-shadow: 2px 2px 4px black;
+}
+.formu label {
+  font-size: 11pt;
+}
+.formu input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+.formu select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
